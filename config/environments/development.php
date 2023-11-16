@@ -18,3 +18,8 @@ ini_set('display_errors', '1');
 
 // Enable plugin and theme updates and installation from the admin
 Config::define('DISALLOW_FILE_MODS', false);
+Config::define('FS_METHOD', 'direct');
+//Config::define( 'DISABLE_WP_CRON', true );
+
+Config::define('WP_ROCKET_EMAIL', getenv('WP_ROCKET_EMAIL'));
+Config::define('WP_ROCKET_KEY', getenv('WP_ROCKET_KEY'));
