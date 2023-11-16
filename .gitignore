@@ -29,6 +29,7 @@ web/.htaccess
 # Composer
 /vendor
 auth.json
+composer.lock
 
 # WP-CLI
 wp-cli.local.yml
